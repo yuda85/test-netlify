@@ -1,0 +1,55 @@
+<div class="header" [ngClass]="{ 'header--active': isActive }">
+  <div class="container">
+    <section class="header__image">
+      <div class="row">
+        <div class="col-lg-12 center">
+          <div class="header__image_container">
+            <img class="img-fluid" src="https://picsum.photos/300/300" />
+          </div>
+
+          <h2 class="text-center">Hodaya Zackay</h2>
+          <h4 class="text-center">Web Developer</h4>
+        </div>
+      </div>
+    </section>
+    <div class="header__links">
+      <div class="d-flex text-center">
+        <a target="_blank" href="https:/facebook">
+          <i class="fa-brands fa-facebook-square"></i>
+        </a>
+        <a target="_blank" href="https:/facebook">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="https:/facebook">
+          <i class="fa-brands fa-github-square"></i>
+        </a>
+      </div>
+    </div>
+    <section class="header__nav">
+      <nav>
+        <ul>
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>
+<div class="menu-btn-container">
+  <button mat-fab (click)="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+</div>
